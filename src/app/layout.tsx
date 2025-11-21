@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { PretendardVariable } from "@/fonts";
 import "../styles/globals.css";
 import "../styles/reset.css";
-import { cn } from "@/cn";
+import { cn } from "@/utils/cn";
 
 export const metadata: Metadata = {
   title: "Create Next App",
